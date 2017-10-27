@@ -89,6 +89,42 @@
 			</section>
 
 			<section>
+				<h2>Scenario 1</h2>
+				<ul>
+					<li>You're about to make a change to your website.</li>
+					<li>“I should save a copy of this somewhere before I break anything.”</li>
+					<li>Windows Explorer</li>
+					<li>AboutUs.html ---> AboutUs.BAK</li>
+					<li>That's good, right?</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Scenario 1 (cont)</h2>
+				<ul>
+					<li>What about when you make a second change to AboutUs.html?</li>
+					<li>Rename the file again</li>
+					<li>AboutUs.HTML ---> AboutUs.OLD</li>
+					<li>Fast-forward 6 months</li>
+					<li>Which is the “most recent backup”, BAK or OLD?</li>
+					<li>Can't remember, have to “diff” by hand. Boo.</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>But wait, it gets worse!</h2>
+				<ul>
+					<li>Do you use FTP to update the site?</li>
+					<li>And move /wwwroot up all at once?</li>
+					<li>AboutUs.BAK and .OLD are in now in Production.</li>
+					<li>Http://sitename/AboutUs.OLD Is a valid URL.</li>
+					<li>Won't be processed by ColdFusion (or Ruby, PHP, etc)</li>
+					<li>Original source code gets sent to the browser as plain text! </li>
+					<li>Security issue!</li>
+				</ul>
+			</section>
+
+			<section>
 				<h2>Questions? Comments?</h2>
 				<ul>
 					<li>southofshasta.com</li>
