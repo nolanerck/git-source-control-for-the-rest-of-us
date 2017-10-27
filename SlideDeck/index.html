@@ -235,6 +235,60 @@
 			</section>
 
 			<section>
+				<h2>Committing a file</h2>
+				<ul>
+					<li>“git commit”</li>
+					<li>Git: take a snapshot of what this file looks like right now, for later reference.</li>
+					<li>Do this instead of making .BAK files.</li>
+					<li>The “committed” version of the file is stored locally.</li>
+					<li>Let's look at an example...</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Pushing a file</h2>
+				<ul>
+					<li>“git push”</li>
+					<li>Git: “take the snapshot you made and copy it up to the Git server.”</li>
+					<li>Do this whenever the file(s) is ready to be shared with your team, or ready for inclusion in the latest build, etc.</li>
+					<li>Let's look at an example...</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Reverting a file</h2>
+				<ul>
+					<li>AKA the “git revert” command.</li>
+					<li>“Ack! I just made a huge mistake in this file. How do I get it back to what it used to look like?”</li>
+					<li>Do this any time you messed up and need to undo a change.</li>
+					<li>Under the hood, Git protocol is the same regardless of GUI client. The actual “thing” you press will vary between GUI clients.</li>
+					<li>Here's an example in SourceTree...</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Branching</h2>
+				<ul>
+					<li>“git branch”</li>
+					<li>“I'm about to make a change to the site. I want a safe way to add my changes, but undo them quickly if something goes wrong.”</li>
+					<li>Do this: Always.</li>
+					<li>If you're making a change to the site, put it in its own branch. </li>
+					<li>Yes, even for that tiny change that's only in 1 file.</li>
+					<li>Example time again...</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Merging Branches</h2>
+				<ul>
+					<li>“git merge”</li>
+					<li>“My new feature has been blessed by QA as bug free and is ready to be put on the Live server”.</li>
+					<li>(Or combined with other features for the next build.)</li>
+					<li>Let's look at an example...</li>
+				</ul>
+			</section>
+
+			<section>
 				<h2>Questions? Comments?</h2>
 				<ul>
 					<li>southofshasta.com</li>
