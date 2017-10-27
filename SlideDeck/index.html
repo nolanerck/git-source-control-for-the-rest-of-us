@@ -289,6 +289,19 @@
 			</section>
 
 			<section>
+				<h2>Common Practices</h2>
+				<ul>
+					<li>Make a branch called “Master” for what the Production server should look like.</li>
+					<li>Don't actually write code in this branch.</li>
+					<li>Write in other branches, then merge them into Master.</li>
+					<li>Anytime I “pull from Master”, I get an exact copy of what's on the Live server.</li>
+					<li>Make a branch called “QA”. As bugs are fixed, merge them into QA.</li>
+					<li>When everything in QA looks correct, merge it into “master”.</li>
+					<li>Don't be afraid to make “temporary branches” to try out new ideas. No harm in making and deleting new branches.</li>
+				</ul>
+			</section>
+
+			<section>
 				<h2>Questions? Comments?</h2>
 				<ul>
 					<li>southofshasta.com</li>
